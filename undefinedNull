@@ -1,0 +1,26 @@
+// undefined a null říká chybý hodnota
+// undefined v proměnné
+let age = 20
+console.log(age)
+
+if(age === undefined){
+    console.log("Prosím vyplň věk")
+}   else {
+    console.log(age)
+}
+//undefined jako argument funkce
+let mojeFunkce = function(num){
+    console.log(num)
+}
+mojeFunkce()
+//undefined u return
+let mojeFunkce2 = function(num){
+    return num
+}
+let hodnota = mojeFunkce2()
+console.log(hodnota)
+
+//Null jako přirozená hodnota
+let myAge = 30
+myAge = null
+console.log(myAge)
