@@ -1,0 +1,10 @@
+// Template Strings, psaní `` alt gr + 7
+let myName = "Kamil Zneužil"
+let age = 15 
+console.log("Ahoj, ja jsem " + myName + " a je mi " + age + " let.")
+console.log(`Ahoj, já jsem ${myName} a je mi ${age} let.`)
+
+let pozdrav = function(firstName, lastName){
+    console.log(`Ahoj, mé jméno je ${firstName} a moje přijmení je ${lastName}`)
+}
+pozdrav("Kamil", "Zneužil")
