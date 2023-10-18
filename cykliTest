@@ -1,0 +1,23 @@
+//foreach je na pole
+let toDo = ["vyvenčit psa", "koupit kečup", "vymalovat pokoj", "udělat si svačinu"]
+
+toDo.forEach(function(aktivity, index){
+    let cislo = index +1
+    console.log(`${cislo}. ${aktivity}`)
+})
+
+// cyklus for
+for(let i = 0; i <= 5; i++){
+    console.log("Testovací text")
+}
+
+//obracenej cyklus for
+for(let j = 3; j >= 0; j--){
+    console.log("Další test")
+}
+
+// vypis pole pomoci cyklu for
+let zaměstnanci = ["Pepa", "Jana", "Karel"]
+for(let k = 0; k < zaměstnanci.length ; k++){
+    console.log(zaměstnanci[k])
+}
