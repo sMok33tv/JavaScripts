@@ -1,0 +1,36 @@
+let clovek1 ={
+    jmeno: "Anastazie",
+    vek: 18,
+    mesto: "Opava",
+    gender: "female"
+}
+console.log(`Jmenuju se ${clovek1.jmeno}, je mi ${clovek1.vek} a jsem z města ${clovek1.mesto}.`)
+
+let clovek2 ={
+    jmeno: "Kokodák",
+    vek: 29,
+    mesto: "Kolín",
+    gender: "male"
+}
+console.log(`Jmenuju se ${clovek2.jmeno}, je mi ${clovek2.vek} a jsem z města ${clovek2.mesto}.`)
+
+let clovek3 ={
+    jmeno: "Algoda",
+    vek: 68,
+    mesto: "Bruntál",
+    gender: "female"
+}
+console.log(`Jmenuju se ${clovek3.jmeno}, je mi ${clovek3.vek} a jsem z města ${clovek3.mesto}.`)
+
+let vysledekKnihy = function(clovek){
+    if(clovek.gender === "male"){
+        console.log(`Muž s jmenem ${clovek.jmeno} věkem ${clovek.vek}, a bydlištěm ${clovek.mesto}`)
+    } else if(clovek.gender === "female"){
+        console.log(`Žena se jmenem ${clovek.jmeno} věkem ${clovek.vek}, a bydlištěm ${clovek.mesto}`)
+    } else {
+        console.log("Chybné zadání")
+    }
+}
+vysledekKnihy(clovek1)
+vysledekKnihy(clovek2)
+vysledekKnihy(clovek3)
