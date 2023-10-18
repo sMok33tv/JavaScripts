@@ -1,0 +1,11 @@
+let kniha = {
+    title: "Jurský park",
+    autor: "Kamil Zneužil",
+    publikace: 1999
+}
+
+console.log(kniha.title)
+console.log(kniha.autor)
+console.log(kniha.publikace)
+
+console.log(`${kniha.title} je kniha od autora ${kniha.autor} a byla vydána v roce ${kniha.publikace}.`)
