@@ -1,0 +1,21 @@
+// console.log("Pozdrav")
+
+function pozdrav1(){
+    console.log("Pozdrav 1")
+}
+
+pozdrav1()
+pozdrav1()
+
+let pozdrav2 = function(){
+    console.log("Pozdrav 2")
+}
+
+pozdrav2()
+pozdrav2()
+
+//šipkova notace
+let pozdrav3 = () => console.log("Pozdrav 3")
+
+pozdrav3()
+pozdrav3()
