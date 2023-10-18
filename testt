@@ -1,0 +1,6 @@
+//Funkce - parametr-funkcion(num) a argument-naDruhou(2)
+let naDruhou = (num) => console.log(num * num)
+naDruhou(2)
+
+let zdraviciFunkce = (name) => console.log("ahoj ja jsem " + name)
+zdraviciFunkce("Pavel")
