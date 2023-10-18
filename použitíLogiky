@@ -1,0 +1,9 @@
+let firstName = "David"
+let vyska = 185 
+
+if(firstName === "David" && vyska === 185){
+    console.log("Je podezřelý")
+}
+if(firstName === "David" || vyska === 185){
+    console.log("Je v podezření")
+}
