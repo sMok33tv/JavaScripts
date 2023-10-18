@@ -1,0 +1,17 @@
+let cislo = 3.9118
+
+//zaokrouhlení na desetina místa
+console.log(cislo.toFixed(2))
+
+//zaokrouhleni celích čísel
+console.log(Math.round(cislo))
+console.log(Math.floor(cislo))
+console.log(Math.ceil(cislo))
+
+// nahodne cislo
+console.log(Math.ceil(Math.random() * 10))
+
+// nahodné číslo z intervalu
+let min = 15
+let max = 20 
+console.log(Math.floor(Math.random() * (max - min + 1 )) + min)
