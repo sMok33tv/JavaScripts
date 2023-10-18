@@ -1,0 +1,11 @@
+let firstName = "Karel"
+
+if(firstName === "David"){
+    console.log("Dobrý den Davide, můžeš jít dál.")
+}   else if(firstName === "Martin"){
+    console.log("Dobrý den Martine, můžeš jít dál.")
+}   else if(firstName === "Jana"){
+    console.log("Dobrý den Jano, můžeš jít dál")
+}   else {
+    console.log("Nemužete vztoupit. Nemáte opravnění.")
+}
