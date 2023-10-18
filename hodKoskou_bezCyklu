@@ -1,0 +1,15 @@
+let cislo1 = Math.ceil(Math.random() * 6)
+let cislo2 = Math.ceil(Math.random() * 6)
+let cislo3 = Math.ceil(Math.random() * 6)
+let cislo4 = Math.ceil(Math.random() * 6)
+let cislo5 = Math.ceil(Math.random() * 6)
+let cislo6 = Math.ceil(Math.random() * 6)
+
+let sum = cislo1 + cislo2 + cislo3 + cislo4 + cislo5 + cislo6 
+
+if(sum >= 25){
+    console.log("Vítěz")
+} else {
+    console.log("Zkus to znovu")
+}
+console.log(sum)
