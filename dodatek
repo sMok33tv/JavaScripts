@@ -1,0 +1,13 @@
+const adult = false // nelze měnit
+ console.log(adult)
+
+ // var ???, není chybnej ale použivat let !!!!
+ var age = 30 
+ var age = 40 
+
+ // chovaná v bloku
+ if (true){
+    let cislo = 5
+    console.log(cislo)
+ }
+ 
