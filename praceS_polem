@@ -1,0 +1,39 @@
+
+let password = ["koslivec159", "ajta_krajta92", "neznabluh7"]
+
+let randomNumber = Math.ceil(Math.random()*3)
+console.log(randomNumber)
+let index = randomNumber - 1
+console.log(password[index])
+
+
+//přepsání prvků
+let testPole = ["test1", "test2", "test3"]
+testPole[0] = "nový"
+console.log(testPole)
+
+//přidání posledního prvku
+let moePole = ["Jedna", "Dva", "Tři"]
+moePole.push = ("Čtyři")
+console.log(moePole)
+
+//odstranění poslední
+moePole.pop()
+console.log(moePole)
+
+//přidání jako první
+moePole.unshift("Nultý")
+console.log(moePole)
+
+//odstranení prvního¨
+moePole.shift()
+console.log(moePole)
+
+
+let druhePole = ["Jedna", "Dva", "Tři"]
+druhePole.splice(0, 1)
+console.log(druhePole)
+
+let třetiPole = ["Jedna", "Dva", "Čtyři"]
+třetiPole.splice(2,0, "Tři")
+console.log(třetiPole)
