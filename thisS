@@ -1,0 +1,28 @@
+//použití THIS
+let clovek1 = {
+    prvniJmeno: "Pavel",
+    druheJmeno: "Neupil",
+    vek: 12,
+    pozdrav: function(){
+        console.log(this.prvniJmeno)
+        console.log(this.druheJmeno)
+        console.log(this.vek)
+        console.log(`Ahoj, já jsem ${this.prvniJmeno}`)
+    }
+}
+
+clovek1.pozdrav()
+
+let clovek2 = {
+    prvniJmeno: "Jan",
+    druheJmeno: "Vydusil",
+    vek: 99,
+    pozdrav: function(){
+        console.log(this.prvniJmeno)
+        console.log(this.druheJmeno)
+        console.log(this.vek)
+        console.log(`Ahoj, já jsem ${this.prvniJmeno}`)
+    }
+}
+
+clovek2.pozdrav()
