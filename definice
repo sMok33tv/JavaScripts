@@ -1,0 +1,13 @@
+// Funkce s více parametry
+let soucet = function(a, b, c){
+    return a + b + c
+}
+let hodnota = soucet(5, 30, -25)
+console.log(hodnota)
+
+//Defaultní (výchozí) hodnota
+let game = function(name = "Anonymní", score = 0){
+    return "Jméno: " + name + ", Score: " + score
+}
+let hodnota2 = game("Pavel", 55)
+console.log(hodnota2)
