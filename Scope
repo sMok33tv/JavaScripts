@@ -1,0 +1,17 @@
+// Scope - rozsah
+// Globalní scope - let prvni
+// Lokalní scope - let druha
+
+let prvni = "První text"
+
+if(true){
+    console.log(prvni)
+    let druha = "Druhý text"
+
+    if(true){
+        let treti = "Třetí text"
+        console.log(treti)
+        console.log(druha)
+        console.log(prvni)
+    }
+}
