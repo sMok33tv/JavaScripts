@@ -1,0 +1,14 @@
+let naDruhou = function(number){
+    let result = number * number
+    return result
+}
+
+let value1 = naDruhou(5)
+console.log(value1)
+
+let zvyseniFunkce = function(num){
+    let result = num + 100
+    return result
+}
+let value2 = zvyseniFunkce(7)
+console.log(value2)
