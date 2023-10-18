@@ -1,0 +1,19 @@
+let prvniJmeno = "Pavel"
+
+// délka
+console.log(prvniJmeno.length)
+
+// velka písmena
+console.log(prvniJmeno.toUpperCase())
+
+// malé písmena
+console.log(prvniJmeno.toLowerCase())
+
+// zahrnuje toto slovo ?
+let veta = "Petr se učí JavaScripts"
+let slovo = "se"
+console.log(veta.includes(slovo))
+
+// odstranění bílých mezer
+let druheJmeno = "   Sletěl   "
+console.log(druheJmeno.trim())
