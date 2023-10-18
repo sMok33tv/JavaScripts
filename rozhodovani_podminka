@@ -1,0 +1,8 @@
+
+let firstName = "David"
+
+if(firstName === "David"){
+    console.log("Ahoj Davide")
+}   else {
+    console.log("Neznám tě")
+}
