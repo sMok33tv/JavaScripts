@@ -1,0 +1,9 @@
+let firstName = "Pavel"
+let age = 27
+console.log("Jmenuji se " + firstName + " a je mi " + age )
+age = age +5
+console.log("Za pět let mi bude " + newAge)
+
+let age = 21
+let result = age === 21
+console.log(result)
