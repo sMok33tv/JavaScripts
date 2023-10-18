@@ -1,0 +1,22 @@
+// Metody
+
+let clovek1 = {
+    prvniJmeno: "Pavel",
+    druheJmeno: "Vymrštěn",
+    věk: 27,
+    vyška: 181,
+    plat: 55000,
+    zdravit: function(pratele){
+        console.log(`Ahoj, mam ${pratele} přátel`)
+    },
+    doPrace: function(prace){
+        return `Jdu do své práce protože jsem ${prace}`
+        prace
+    }
+}
+
+console.log(clovek1.prvniJmeno)
+console.log(clovek1.vyška)
+clovek1.zdravit(5)
+let vysledek = clovek1.doPrace("Programator")
+console.log(vysledek)
