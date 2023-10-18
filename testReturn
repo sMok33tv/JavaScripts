@@ -1,0 +1,19 @@
+let adultChecker = function(age){
+    if(age >= 18){
+        let hodnoceni = "dospělí"
+       return hodnoceni
+    } else{
+        let hodnoceni = "dítě"
+        return hodnoceni
+    }
+}
+
+let hodnota = adultChecker(18)
+
+if(hodnota === "dospělí"){
+    console.log("Výsledek kontroly věku: " + hodnota)
+    console.log("Můžeš projít")
+}   else {
+    console.log("Výsledek kontroly věku: " + hodnota)
+    console.log("Nemužeš projít")
+}   
