@@ -1,0 +1,14 @@
+// variable shadowing
+let myName = "David"
+
+if(true){
+    let myName = "Viktor"
+    if(true){
+        console.log(myName)
+    }
+
+} 
+
+if(true){
+    console.log(myName)
+}
