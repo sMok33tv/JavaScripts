@@ -1,0 +1,16 @@
+// Definování věku
+let age = 21
+
+//Dítě
+let child = age < 18
+
+//Dospělost
+let adult = age >= 18
+
+//Důchodce
+let pension = age >= 65
+
+//Výpis výsledků
+console.log("Dítě " + child)
+console.log("Dospělí: " + adult)
+console.log("Důchodce: " + pension)
