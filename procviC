@@ -1,19 +1,1 @@
-let skola = {
-    typ: "gymnazium",
-    ulice: "Plovoucí 29",
-    mesto: "Ploštěkov",
-    kapacita: 2,
-    open: function(){
-        console.log("Škola je otevřena")
-    },
-    close: function(){
-        return "Škola je zavřena"
-    }
-}
 
-console.log(skola.typ)
-console.log(skola.mesto)
-
-skola.open()
-let uzavrena = skola.close()
-console.log(uzavrena)
